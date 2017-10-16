@@ -16,7 +16,8 @@
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "nyc": {
     "reporter": [
@@ -27,12 +28,13 @@
       "tests/**"
     ],
     "extension": [
+      ".js",
       ".jsx"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/invntrm/react-css-loaders"
+    "url": "https://github.com/a-x-/react-css-loaders"
   },
   "keywords": [
     "react",
@@ -41,9 +43,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/invntrm/react-css-loaders/issues"
+    "url": "https://github.com/a-x-/react-css-loaders/issues"
   },
-  "homepage": "https://github.com/invntrm/react-css-loaders#readme",
+  "homepage": "https://github.com/a-x-/react-css-loaders#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.7.7",
@@ -81,8 +83,5 @@
   },
   "peerDependencies": {
     "styled-components": "^2.x"
-  },
-  "publishConfig": {
-    "scope": "invntrm"
   }
 }
