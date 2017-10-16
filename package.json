@@ -81,5 +81,8 @@
   },
   "peerDependencies": {
     "styled-components": "^2.x"
+  },
+  "publishConfig": {
+    "scope": "a-x-"
   }
 }
