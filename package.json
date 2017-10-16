@@ -70,11 +70,11 @@
     "nyc": "^10.2.0",
     "react-addons-test-utils": "^15.5.0",
     "sinon": "^2.1.0",
-    "styled-components": "^2.x",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "styled-components": "^2.x",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
